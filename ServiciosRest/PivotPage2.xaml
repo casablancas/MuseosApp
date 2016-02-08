@@ -1,0 +1,127 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="ServiciosRest.PivotPage2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        
+        <!--Pivot Control-->
+        <phone:Pivot x:Name="PivotCategorias" Title="Museos App" Background="#FF890E4F" BorderThickness="0" Margin="0" FontSize="20">
+            
+            <!--Pivot item one-->
+            <!--Pivot item two-->
+            <phone:PivotItem>
+                <phone:PivotItem.Header>
+                    <Image Source="/Assets/Logotipos/arte.png" Margin="45,30,0,0"/>
+                </phone:PivotItem.Header>
+                <!--ContentPanel - place additional content here-->
+                
+                <Grid x:Name="Arte" Grid.Row="1" Margin="12,0,12,0">
+                    
+                    <StackPanel>
+                        <ProgressBar x:Name="loadMuseosArte" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
+                    </StackPanel>
+                    
+                    <ListBox x:Name="ElementosArte" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0" >
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" Background="White">
+                                        <!--<Image Height="100" Stretch="UniformToFill" Width="200" Source="{Binding imagen}"></Image>-->
+                                        <Ellipse Height="100" Stroke="White" Width="100" Resources="{Binding imagen}" Margin="20,0,0,0">
+                                            <Ellipse.Fill>
+                                                <ImageBrush Stretch="UniformToFill" ImageSource="{Binding imagen}"/>
+                                            </Ellipse.Fill>
+                                        </Ellipse>
+                                        <StackPanel Margin="30">
+                                            <TextBlock Text="{Binding nombre}" Margin="20,0,0,0" Foreground="#FFB90065"></TextBlock>
+                                            <TextBlock Text="{Binding categoria}" Margin="20,0,0,0" Foreground="#FFB90065"></TextBlock>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                </Grid>
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+            <phone:PivotItem>
+                
+                <phone:PivotItem.Header>
+                    <Image Source="/Assets/Logotipos/historia.png" Margin="45,30,0,0"/>
+                </phone:PivotItem.Header>
+                <!--ContentPanel - place additional content here-->
+                <Grid x:Name="Historia" Grid.Row="1" Margin="12,0,12,0">
+                    
+                    <StackPanel>
+                        <ProgressBar x:Name="loadMuseosHistoria" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
+                    </StackPanel>
+                    
+                    <ListBox x:Name="ElementosHistoria" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Background="White">
+                                    <!--<Image Height="100" Stretch="UniformToFill" Width="200" Source="{Binding imagen}"></Image>-->
+                                    <Ellipse Height="100" Stroke="White" Width="100" Resources="{Binding imagen}" Margin="20,0,0,0">
+                                        <Ellipse.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="{Binding imagen}"/>
+                                        </Ellipse.Fill>
+                                    </Ellipse>
+                                    <StackPanel Margin="30">
+                                        <TextBlock Text="{Binding nombre}" Margin="20,0,0,0" Foreground="#FFB90065"></TextBlock>
+                                        <TextBlock Text="{Binding categoria}" Margin="20,0,0,0" Foreground="#FFB90065"></TextBlock>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+            <phone:PivotItem>
+                <phone:PivotItem.Header>
+                    <Image Source="/Assets/Logotipos/interactivo.png" Margin="45,30,0,0"/>
+                </phone:PivotItem.Header>
+                <!--ContentPanel - place additional content here-->
+                <Grid x:Name="Interactivo" Grid.Row="1" Margin="12,0,12,0">
+                    
+                    <StackPanel>
+                        <ProgressBar x:Name="loadMuseosInteractivo" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
+                    </StackPanel>
+                    
+                    <ListBox x:Name="ElementosInteractivo" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Background="White">
+                                    <!--<Image Height="100" Stretch="UniformToFill" Width="200" Source="{Binding imagen}"></Image>-->
+                                    <Ellipse Height="100" Stroke="White" Width="100" Resources="{Binding imagen}" Margin="20,0,0,0">
+                                        <Ellipse.Fill>
+                                            <ImageBrush Stretch="UniformToFill" ImageSource="{Binding imagen}"/>
+                                        </Ellipse.Fill>
+                                    </Ellipse>
+                                    <StackPanel Margin="30">
+                                        <TextBlock Text="{Binding nombre}" Margin="20,0,0,0" Foreground="#FFB90065"></TextBlock>
+                                        <TextBlock Text="{Binding categoria}" Margin="20,0,0,0" Foreground="#FFB90065"></TextBlock>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </phone:PivotItem>
+
+        </phone:Pivot>
+    </Grid>
+    
+</phone:PhoneApplicationPage>

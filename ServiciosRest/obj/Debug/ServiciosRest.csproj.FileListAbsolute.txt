@@ -1,0 +1,125 @@
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\ServiciosRest.dll
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\ServiciosRest.pdb
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\resources.pri
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\AppxManifest.xml
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\ServiciosRest.build.appxrecipe
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\AppManifest.xaml
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\ServiciosRest_Debug_AnyCPU.xap
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\App.g.cs
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\MainPage.g.cs
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.g.resources
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.Resources.AppResources.resources
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.csproj.GenerateResource.Cache
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.dll
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.pdb
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\priconfig.xml
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\priconfig.xml.intermediate
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\layout.resfiles
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\layout.resfiles.intermediate
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\resources.resfiles
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\resources.resfiles.intermediate
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\pri.resfiles
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\pri.resfiles.intermediate
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\qualifiers.txt
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\ProjectArchitectures.txt
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\MDILProjectFiles.xml
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\XapCacheFile.xml
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.csprojResolveAssemblyReference.cache
+C:\Users\Neksze\Documents\Visual Studio 2015\Projects\ServiciosRest\ServiciosRest\obj\Debug\FullInfo.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\ServiciosRest.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\ServiciosRest.pdb
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\resources.pri
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\AppxManifest.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\ServiciosRest.build.appxrecipe
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\AppManifest.xaml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\ServiciosRest_Debug_AnyCPU.xap
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.csprojResolveAssemblyReference.cache
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\App.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\FullInfo.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\MainPage.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.g.resources
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.Resources.AppResources.resources
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.csproj.GenerateResource.Cache
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\ServiciosRest.pdb
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\priconfig.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\priconfig.xml.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\layout.resfiles
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\layout.resfiles.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\resources.resfiles
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\resources.resfiles.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\pri.resfiles
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\pri.resfiles.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\qualifiers.txt
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\qualifiers.txt.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\ProjectArchitectures.txt
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\MDILProjectFiles.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\XapCacheFile.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest\ServiciosRest\obj\Debug\Pivot.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\ServiciosRest.csprojResolveAssemblyReference.cache
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\App.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\FullInfo.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\Pivot.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\ServiciosRest.g.resources
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\ServiciosRest.Resources.AppResources.resources
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\ServiciosRest.csproj.GenerateResource.Cache
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\ServiciosRest.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\ServiciosRest.pdb
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\ServiciosRest.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\ServiciosRest.pdb
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\resources.pri
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\AppxManifest.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\ServiciosRest.build.appxrecipe
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\AppManifest.xaml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\ServiciosRest_Debug_AnyCPU.xap
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Silverlight_ZXing_Core.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Silverlight_ZXing_Core.pdb
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\priconfig.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\priconfig.xml.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\layout.resfiles
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\layout.resfiles.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\resources.resfiles
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\resources.resfiles.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\pri.resfiles
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\pri.resfiles.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\qualifiers.txt
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\qualifiers.txt.intermediate
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\ProjectArchitectures.txt
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\MDILProjectFiles.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\XapCacheFile.xml
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\QR.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\NormalPage.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\alex_\Documents\Visual Studio 2015\ServiciosRest - copia (3)\ServiciosRest\obj\Debug\PivotPage2.g.cs

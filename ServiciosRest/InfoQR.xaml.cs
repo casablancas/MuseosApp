@@ -52,6 +52,7 @@ namespace ServiciosRest
 
             ElementosQR.ItemsSource = _piezas;
             loadPieza.Visibility = Visibility.Collapsed;
+            txtCargando.Visibility = Visibility.Collapsed;
         }
 
         protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)

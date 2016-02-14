@@ -24,23 +24,24 @@
         <Grid x:Name="ContentPanel" Grid.Row="1">
             
             <ProgressBar x:Name="loadPieza" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
+            <TextBlock x:Name="txtCargando" Text="Cargando..." Margin="200,400,0,0"></TextBlock>
             
-            <ListBox x:Name="ElementosQR" SelectionMode="Multiple">
+            <ListBox x:Name="ElementosQR" SelectionMode="Multiple" FontFamily="Portable User Interface">
                 
                 <ListBox.ItemTemplate>
                     
                     <DataTemplate>
                         
                         <StackPanel Orientation="Vertical" Background="White">
-                            <Canvas Grid.Row="0" Margin="0,0,0,0" Width="480" Height="245">
+                            <Canvas Grid.Row="0" Margin="0,0,0,0" Width="480" Height="345">
                                 <!--<TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>-->
-                                <Image Grid.Row="0" Source="{Binding imagen}" Stretch="UniformToFill" Height="245" Width="480"/>
-                                <TextBlock Text="{Binding nombre}" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="60" Width="450" Canvas.Top="195" Canvas.Left="30"/>
+                                <Image Grid.Row="0" Source="{Binding imagen}" Stretch="UniformToFill" Height="345" Width="480"/>
+                                <TextBlock Text="{Binding nombre}" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="60" Width="450" Canvas.Top="295" Canvas.Left="30" FontFamily="Portable User Interface"/>
                                 <!--<TextBlock Text="{Binding nombre}" FontSize="30"/>-->
                             </Canvas>
 
                             <Border Width="470" Height="35" Background="#FFC2175B" Margin="10,10,10,0">
-                                <TextBlock Text="Autor:" Margin="10,0,0,0"></TextBlock>
+                                <TextBlock Text="Autor:" Margin="10,5,0,0"></TextBlock>
                             </Border>
 
                             <Canvas Width="470" Height="90">
@@ -48,7 +49,7 @@
                             </Canvas>
 
                             <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
-                                <TextBlock Text="Año:" Margin="10,0,0,0"></TextBlock>
+                                <TextBlock Text="Año:" Margin="10,5,0,0"></TextBlock>
                             </Border>
 
                             <Canvas Width="470" Height="90">
@@ -58,7 +59,7 @@
                             </Canvas>
 
                             <Canvas Width="460" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
-                                <TextBlock Text="Descripción:" Cursor="None" Margin="10,0,0,0" ></TextBlock>
+                                <TextBlock Text="Descripción:" Cursor="None" Margin="10,5,0,0" ></TextBlock>
                             </Canvas>
 
                             <Canvas Height="600" Width="480">
@@ -72,7 +73,7 @@
                             </Canvas>
 
                             <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
-                                <TextBlock Text="Social:" Visibility="Visible" Margin="10,0,0,0"></TextBlock>
+                                <TextBlock Text="Social:" Visibility="Visible" Margin="10,5,0,0"></TextBlock>
                             </Border>
 
                             <Canvas Width="480" Height="90">

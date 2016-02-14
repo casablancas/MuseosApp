@@ -151,10 +151,24 @@ namespace ServiciosRest
             var root = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Museo>>(json);
             int index = 0;
 
+            var hora = DateTime.Now.ToString("hh:mm");
+
             foreach (var item in root)
             {
                 if (item.categoria.Equals("interactivo"))
                 {
+                    System.Diagnostics.Debug.WriteLine("\nNombre: " + item.nombre);
+                    System.Diagnostics.Debug.WriteLine("HORA: " + hora);
+                    foreach (var horario in item.horarios)
+                    {
+                        //System.Diagnostics.Debug.WriteLine("Dias: " + horario.dia);
+                        System.Diagnostics.Debug.WriteLine("Hora de apertura: " + horario.horaApertura);
+                        double temp;
+                        //temp = Convert.ToDouble(horario.horaApertura);
+                        //System.Diagnostics.Debug.WriteLine("Conversion horario: " + temp);
+                        //System.Diagnostics.Debug.WriteLine("Hora de cierre: " + horario.horaCierre);
+                        //if (hora<horario.horaApertura)
+                    }
                     _temp.Add(_museos.ElementAt(index));
                     //System.Diagnostics.Debug.WriteLine(_museos.ElementAt(index).nombre);
                     //System.Diagnostics.Debug.WriteLine(_museos.ElementAt(index).categoria);

@@ -42,6 +42,12 @@ namespace ScannerDemo
             base.OnNavigatedTo(e);
         }
 
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            _timer.Stop();
+            NavigationService.Navigate(new Uri("/PivotPage2.xaml", UriKind.Relative));
+        }
+
         private void OnPhotoCameraInitialized(object sender, CameraOperationCompletedEventArgs e)
         {
             int width = Convert.ToInt32(_photoCamera.PreviewResolution.Width);
@@ -60,10 +66,27 @@ namespace ScannerDemo
         {
             try
             {
+                lblQR.Text = "No se detecta código QR";
                 _photoCamera.GetPreviewBufferY(_luminance.PreviewBufferY);
                 var binarizer = new HybridBinarizer(_luminance);
                 var binBitmap = new BinaryBitmap(binarizer);
                 var result = _reader.decode(binBitmap);
+
+                var scan = result.Text;
+                lblQR.Text = "Escanea un código de Museos App";
+
+                var textId = scan.Remove(0, 42);
+                System.Diagnostics.Debug.WriteLine("ID DEL TEXTO: " + textId);
+                var textQR = scan.Remove(42, 1);
+                System.Diagnostics.Debug.WriteLine("TEXTO DEL QR: " + textQR);
+
+                if (textQR.Equals("http://museosapp.azurewebsites.net/Piezas/"))
+                {
+                    lblQR.Text = "Código QR correcto";
+                    NavigationService.Navigate(new Uri("/InfoQR.xaml?id=" + textId, UriKind.Relative));
+                    _timer.Stop();
+                }
+
                 Dispatcher.BeginInvoke(() => DisplayResult(result.Text));
             }
             catch
@@ -71,10 +94,27 @@ namespace ScannerDemo
             }            
         }
 
-        private void DisplayResult(string text)
+        public void DisplayResult(string text)
         {
-            if(!_matches.Contains(text))
-                _matches.Add(text);            
+            //if(text.Equals(""))
+            //lblQR.Text = "No se detecta código QR";
+
+            if (!_matches.Contains(text))
+            {
+                //Muestra en pantalla el string que se ha escaneado
+                //_matches.Add(text);
+            }
+            //else
+                //lblQR.Text = "No se detecta código QR";
+
+            /*if (text.Equals("http://museosapp.azurewebsites.net/Piezas/3"))
+            {
+                lblQR.Text = "Código QR correcto";
+                NavigationService.Navigate(new Uri("/InfoQR.xaml?id=" + text, UriKind.Relative));
+                _timer.Stop();
+            }
+            else
+                lblQR.Text = "Escanea código de Museos";*/
         }
     }
 }

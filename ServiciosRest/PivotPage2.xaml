@@ -19,8 +19,7 @@
         <!--Pivot Control-->
         <phone:Pivot x:Name="PivotCategorias" Title="Museos App" Background="#FF890E4F" BorderThickness="0" Margin="0" FontSize="20">
             
-            <!--Pivot item one-->
-            <!--Pivot item two-->
+            <!--Pivot item Arte-->
             <phone:PivotItem>
                 <phone:PivotItem.Header>
                     <Image Source="/Assets/Logotipos/arte.png" Margin="45,30,0,0"/>
@@ -33,7 +32,7 @@
                         <ProgressBar x:Name="loadMuseosArte" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
                     </StackPanel>
                     
-                    <ListBox x:Name="ElementosArte" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0" >
+                    <ListBox x:Name="ElementosArte" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0" ScrollViewer.VerticalScrollBarVisibility="Visible">
                             <ListBox.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal" Background="White">
@@ -54,20 +53,19 @@
                 </Grid>
             </phone:PivotItem>
 
-            <!--Pivot item two-->
+            <!--Pivot item Interactivo-->
             <phone:PivotItem>
-                
                 <phone:PivotItem.Header>
-                    <Image Source="/Assets/Logotipos/historia.png" Margin="45,30,0,0"/>
+                    <Image Source="/Assets/Logotipos/interactivo.png" Margin="45,30,0,0"/>
                 </phone:PivotItem.Header>
                 <!--ContentPanel - place additional content here-->
-                <Grid x:Name="Historia" Grid.Row="1" Margin="12,0,12,0">
-                    
+                <Grid x:Name="Interactivo" Grid.Row="1" Margin="12,0,12,0">
+
                     <StackPanel>
-                        <ProgressBar x:Name="loadMuseosHistoria" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
+                        <ProgressBar x:Name="loadMuseosInteractivo" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
                     </StackPanel>
-                    
-                    <ListBox x:Name="ElementosHistoria" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0">
+
+                    <ListBox x:Name="ElementosInteractivo" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal" Background="White">
@@ -88,19 +86,20 @@
                 </Grid>
             </phone:PivotItem>
 
-            <!--Pivot item two-->
+            <!--Pivot item Historia-->
             <phone:PivotItem>
+
                 <phone:PivotItem.Header>
-                    <Image Source="/Assets/Logotipos/interactivo.png" Margin="45,30,0,0"/>
+                    <Image Source="/Assets/Logotipos/historia.png" Margin="45,30,0,0"/>
                 </phone:PivotItem.Header>
                 <!--ContentPanel - place additional content here-->
-                <Grid x:Name="Interactivo" Grid.Row="1" Margin="12,0,12,0">
-                    
+                <Grid x:Name="Historia" Grid.Row="1" Margin="12,0,12,0">
+
                     <StackPanel>
-                        <ProgressBar x:Name="loadMuseosInteractivo" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
+                        <ProgressBar x:Name="loadMuseosHistoria" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
                     </StackPanel>
-                    
-                    <ListBox x:Name="ElementosInteractivo" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0">
+
+                    <ListBox x:Name="ElementosHistoria" SelectionChanged="Elementos_SelectionChanged" Background="White" Margin="-25,0">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal" Background="White">

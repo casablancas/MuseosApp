@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\neksze\documents\visual studio 2015\projects\serviciosrest\xaml\obj\debug\intermediatexaml\xaml.exe" HashGuid="91ea407f-6818-09ef-aecb-a35b42cda0ed" />
-    <ReferenceAssembly PathName="c:\users\alex_\documents\visual studio 2015\serviciosrest - copia (3)\packages\newtonsoft.json.8.0.2\lib\portable-net45+wp80+win8+wpa81+dnxcore50\newtonsoft.json.dll" HashGuid="38db4215-06d8-4b50-81fc-8e6b502244af" />
+    <ReferenceAssembly PathName="c:\users\alex_\documents\visual studio 2015\museosapp\packages\newtonsoft.json.8.0.2\lib\portable-net45+wp80+win8+wpa81+dnxcore50\newtonsoft.json.dll" HashGuid="38db4215-06d8-4b50-81fc-8e6b502244af" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

@@ -1,0 +1,113 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="ServiciosRest.InfoQR"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            
+            <ProgressBar x:Name="loadPieza" IsIndeterminate="True" Foreground="White" Margin="0,-30,0,0"></ProgressBar>
+            
+            <ListBox x:Name="ElementosQR" SelectionMode="Multiple">
+                
+                <ListBox.ItemTemplate>
+                    
+                    <DataTemplate>
+                        
+                        <StackPanel Orientation="Vertical" Background="White">
+                            <Canvas Grid.Row="0" Margin="0,0,0,0" Width="480" Height="245">
+                                <!--<TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>-->
+                                <Image Grid.Row="0" Source="{Binding imagen}" Stretch="UniformToFill" Height="245" Width="480"/>
+                                <TextBlock Text="{Binding nombre}" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="60" Width="450" Canvas.Top="195" Canvas.Left="30"/>
+                                <!--<TextBlock Text="{Binding nombre}" FontSize="30"/>-->
+                            </Canvas>
+
+                            <Border Width="470" Height="35" Background="#FFC2175B" Margin="10,10,10,0">
+                                <TextBlock Text="Autor:" Margin="10,0,0,0"></TextBlock>
+                            </Border>
+
+                            <Canvas Width="470" Height="90">
+                                <TextBlock Text="{Binding autor}" FontSize="25" TextWrapping="Wrap" Width="395" Foreground="#FF890E4F" Canvas.Left="20" Canvas.Top="20"/>
+                            </Canvas>
+
+                            <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
+                                <TextBlock Text="Año:" Margin="10,0,0,0"></TextBlock>
+                            </Border>
+
+                            <Canvas Width="470" Height="90">
+                                <!--<ScrollViewer Height="60" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="White" Width="420">-->
+                                <TextBlock Text="{Binding ano}" FontSize="25" TextWrapping="Wrap" Foreground="#FF890E4F" Canvas.Left="20" Canvas.Top="20"/>
+                                <!--</ScrollViewer>-->
+                            </Canvas>
+
+                            <Canvas Width="460" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
+                                <TextBlock Text="Descripción:" Cursor="None" Margin="10,0,0,0" ></TextBlock>
+                            </Canvas>
+
+                            <Canvas Height="600" Width="480">
+                                <TextBlock x:Name="DescripcionPieza" Text="{Binding descripcion}" FontSize="25" TextWrapping="Wrap" Width="443" Height="600" Foreground="#FF890E4F" Canvas.Left="20" Canvas.Top="20"/>
+                                <Canvas Width="40" Height="40" Canvas.Left="430" Canvas.Top="525">
+                                    <Canvas.Background>
+                                        <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/voice.png"/>
+                                    </Canvas.Background>
+                                    <Button x:Name="btnAudio" Content="Button" Width="40" Height="40" Opacity="0" Click="btnAudio_Click"></Button>
+                                </Canvas>
+                            </Canvas>
+
+                            <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
+                                <TextBlock Text="Social:" Visibility="Visible" Margin="10,0,0,0"></TextBlock>
+                            </Border>
+
+                            <Canvas Width="480" Height="90">
+                                <ScrollViewer Height="60" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="White" Width="480">
+                                    <TextBlock Text="" TextWrapping="Wrap"/>
+                                </ScrollViewer>
+
+                                <Canvas x:Name="canvasWeb" Width="40" Height="40" Canvas.Left="420" Canvas.Top="25">
+                                    <Canvas.Background>
+                                        <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/www.png"/>
+                                    </Canvas.Background>
+                                    <Button x:Name="btnWeb" Content="Button" Width="40" Height="40" Opacity="0" Click="btnWeb_Click"></Button>
+                                </Canvas>
+
+                                <Canvas x:Name="canvasFacebook" Width="40" Height="40" Canvas.Left="365" Canvas.Top="25">
+                                    <Canvas.Background>
+                                        <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/facebook.png"/>
+                                    </Canvas.Background>
+                                    <Button x:Name="btnFacebook" Content="Button" Width="40" Height="40" Opacity="0" Click="btnFacebook_Click"></Button>
+                                </Canvas>
+
+                                <Canvas x:Name="canvasTwitter" Width="40" Height="40" Canvas.Left="310" Canvas.Top="25">
+                                    <Canvas.Background>
+                                        <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/twitter.png"/>
+                                    </Canvas.Background>
+                                    <Button x:Name="btnTwitter" Content="Button" Width="40" Height="40" Opacity="0" Click="btnTwitter_Click"></Button>
+                                </Canvas>
+                            </Canvas>
+                        </StackPanel>
+                        <!--<TextBlock Text="holi"></TextBlock>-->
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

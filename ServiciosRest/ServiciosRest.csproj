@@ -97,10 +97,14 @@
     <Compile Include="FullInfo.xaml.cs">
       <DependentUpon>FullInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InfoQR.xaml.cs">
+      <DependentUpon>InfoQR.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="NormalPage.xaml.cs">
       <DependentUpon>NormalPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Piezas.cs" />
     <Compile Include="PivotPage2.xaml.cs">
       <DependentUpon>PivotPage2.xaml</DependentUpon>
     </Compile>
@@ -126,6 +130,10 @@
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
     <Page Include="FullInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InfoQR.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -166,10 +174,17 @@
     <Content Include="Assets\BadgeLogo.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Logotipos\arte.png" />
+    <Content Include="Assets\Logotipos\facebook.png" />
     <Content Include="Assets\Logotipos\feature.camera.png" />
     <Content Include="Assets\Logotipos\historia.png" />
+    <Content Include="Assets\Logotipos\icon.png" />
     <Content Include="Assets\Logotipos\interactivo.png" />
+    <Content Include="Assets\Logotipos\marker1.png" />
     <Content Include="Assets\Logotipos\Museos Archivos 01-14.png" />
+    <Content Include="Assets\Logotipos\phone.png" />
+    <Content Include="Assets\Logotipos\twitter.png" />
+    <Content Include="Assets\Logotipos\voice.png" />
+    <Content Include="Assets\Logotipos\www.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\SquareTile150x150.png" />
     <Content Include="Assets\SquareTile71x71.png" />

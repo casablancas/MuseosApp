@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using DevelopersAzteca;
 using Windows.Web.Http;
+using System.Windows.Media;
 
 namespace ServiciosRest
 {
@@ -67,6 +68,9 @@ namespace ServiciosRest
             ApplicationBar.Opacity = 0.8;
             ApplicationBar.IsVisible = true;
             ApplicationBar.IsMenuEnabled = true;
+            ApplicationBar.BackgroundColor = Color.FromArgb(255, 8, 165, 196);
+            //ApplicationBar.BackgroundColor = Colors.Blue;
+            //ApplicationBar.BackgroundColor = SolidColorBrush(Colors.Blue);
 
             ApplicationBarIconButton buttonQR = new ApplicationBarIconButton();
             buttonQR.IconUri = new Uri("/Assets/Logotipos/Museos Archivos 01-14.png", UriKind.Relative);
@@ -178,6 +182,15 @@ namespace ServiciosRest
             if (ElementosArte.SelectedItem != null)
             {
                 Museo museo = (ElementosArte.SelectedItem as Museo);
+                NavigateServiceExtends.Navigate(NavigationService, new Uri("/FullInfo.xaml", UriKind.RelativeOrAbsolute), museo);
+
+            } else if (ElementosHistoria.SelectedItem != null)
+            {
+                Museo museo = (ElementosHistoria.SelectedItem as Museo);
+                NavigateServiceExtends.Navigate(NavigationService, new Uri("/FullInfo.xaml", UriKind.RelativeOrAbsolute), museo);
+            } else if (ElementosInteractivo.SelectedItem != null)
+            {
+                Museo museo = (ElementosInteractivo.SelectedItem as Museo);
                 NavigateServiceExtends.Navigate(NavigationService, new Uri("/FullInfo.xaml", UriKind.RelativeOrAbsolute), museo);
             }
             /*else if (ElementosHistoria.SelectedItem != null)

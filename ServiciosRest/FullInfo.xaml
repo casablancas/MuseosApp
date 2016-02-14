@@ -24,13 +24,17 @@
             <TextBlock Text="{Binding nombre}" FontSize="30" HorizontalAlignment="Center"/>
         </StackPanel>-->
 
+
         <!--TitlePanel contains the name of the application and page title-->
-        <Canvas Grid.Row="0" Margin="0,0,0,45" Width="480" Height="200">
-            <!--<TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>-->
-            <Image Grid.Row="0" Source="{Binding imagen}" Stretch="Uniform"/>
-            <TextBlock Text="{Binding nombre}" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
-            <!--<TextBlock Text="{Binding nombre}" FontSize="30"/>-->
-        </Canvas>
+
+        <!-- Con este bloque, el canvas de la imagen se queda estático. -->
+        <!--<ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+            <Canvas Grid.Row="0" Margin="0,0,0,0" Width="480" Height="245"> 
+                <Image Grid.Row="0" Source="{Binding imagen}" Stretch="UniformToFill" Height="245" Width="480"/>
+                <TextBlock Text="{Binding nombre}" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="60" Width="450" Canvas.Top="195" Canvas.Left="30"/>
+            </Canvas>
+        </ScrollViewer>-->
+
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Background="Black">
@@ -39,42 +43,93 @@
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
 
-            <StackPanel>
-                <ListBox Background="White">
+            <!--<ScrollViewer>-->
+            <ListBox Grid.Row="1" x:Name="contenido" Background="White" ScrollViewer.VerticalScrollBarVisibility="Visible">
 
-                    <Border Width="470" Height="35" Background="#FFC2175B" Margin="10,10,10,0">
-                        <TextBlock Text="Teléfono:" ></TextBlock>
-                    </Border>
-                
-                <ScrollViewer Height="60" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="White" Width="420">
-                        <TextBox Text="{Binding telefono}" AcceptsReturn="True" TextWrapping="Wrap" Width="480" IsReadOnly="True" Cursor="None"/>
+                <Canvas Grid.Row="0" Margin="0,0,0,0" Width="480" Height="245">
+                    <!--<TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>-->
+                    <Image Grid.Row="0" Source="{Binding imagen}" Stretch="UniformToFill" Height="245" Width="480"/>
+                    <TextBlock Text="{Binding nombre}" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="60" Width="450" Canvas.Top="195" Canvas.Left="30"/>
+                    <!--<TextBlock Text="{Binding nombre}" FontSize="30"/>-->
+                </Canvas>
+
+                <Border Width="470" Height="35" Background="#FFC2175B" Margin="10,10,10,0">
+                    <TextBlock Text="Teléfono:" Margin="10,0,0,0"></TextBlock>
+                </Border>
+
+                <Canvas Width="470" Height="90">
+                    <TextBlock Text="{Binding telefono}" FontSize="25" TextWrapping="Wrap" Width="395" Foreground="#FF890E4F" Canvas.Left="20" Canvas.Top="20"/>
+                    <Canvas Width="40" Height="40" Canvas.Left="420" Canvas.Top="24">
+                        <Canvas.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/phone.png"/>
+                        </Canvas.Background>
+                        <Button x:Name="btnLllamada" Content="Button" Width="40" Height="40" Opacity="0" Click="btnLllamada_Click"></Button>
+                    </Canvas>
+                </Canvas>
+
+                <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
+                    <TextBlock Text="Horario:" Margin="10,0,0,0"></TextBlock>
+                </Border>
+
+                <Canvas Width="470" Height="90">
+                    <!--<ScrollViewer Height="60" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="White" Width="420">-->
+                    <TextBlock Text="Martes a Sábado" FontSize="25" TextWrapping="Wrap" Foreground="#FF890E4F" Canvas.Left="20" Canvas.Top="20"/>
+                    <!--</ScrollViewer>-->
+                    <Canvas Width="40" Height="40" Canvas.Left="420" Canvas.Top="20">
+                        <Canvas.Background>
+                            <ImageBrush ImageSource="/Assets/Logotipos/marker1.png" Stretch="Uniform"/>
+                        </Canvas.Background>
+                        <Button x:Name="btnRuta" Content="Button" Width="40" Height="40" Opacity="0" Click="btnRuta_Click"></Button>
+                    </Canvas>
+                </Canvas>
+
+                <Canvas Width="460" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
+                    <TextBlock Text="Descripción:" Cursor="None" Margin="10,0,0,0" ></TextBlock>
+                </Canvas>
+
+                <Canvas Height="260" Width="480">
+                    <TextBlock Text="{Binding descripcionCorta}" FontSize="25" TextWrapping="Wrap" Width="443" Foreground="#FF890E4F" Canvas.Left="20" Canvas.Top="20"/>
+                    <Canvas Width="40" Height="40" Canvas.Left="430" Canvas.Top="180">
+                        <Canvas.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/voice.png"/>
+                        </Canvas.Background>
+                        <Button x:Name="btnAudio" Content="Button" Width="40" Height="40" Opacity="0" Click="btnAudio_Click"></Button>
+                    </Canvas>
+                </Canvas>
+
+                <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
+                    <TextBlock Text="Social:" Visibility="Visible" Margin="10,0,0,0"></TextBlock>
+                </Border>
+
+                <Canvas Width="480" Height="90">
+                    <ScrollViewer Height="60" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="White" Width="480">
+                        <TextBlock Text="" TextWrapping="Wrap"/>
                     </ScrollViewer>
 
-                    <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
-                        <TextBlock Text="Horario:" ></TextBlock>
-                    </Border>
-                
-                <ScrollViewer Height="60" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="White" Width="420">
-                        <TextBox Text="Martes a Sábado" AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True"/>
-                </ScrollViewer>
+                    <Canvas x:Name="canvasWeb" Width="40" Height="40" Canvas.Left="420" Canvas.Top="25">
+                        <Canvas.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/www.png"/>
+                        </Canvas.Background>
+                        <Button x:Name="btnWeb" Content="Button" Width="40" Height="40" Opacity="0" Click="btnWeb_Click"></Button>
+                    </Canvas>
 
-                    <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
-                        <TextBlock Text="Descripción:" Cursor="None"></TextBlock>
-                    </Border>
+                    <Canvas x:Name="canvasFacebook" Width="40" Height="40" Canvas.Left="365" Canvas.Top="25">
+                        <Canvas.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/facebook.png"/>
+                        </Canvas.Background>
+                        <Button x:Name="btnFacebook" Content="Button" Width="40" Height="40" Opacity="0" Click="btnFacebook_Click"></Button>
+                    </Canvas>
 
-                    <ScrollViewer Height="230" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="White">
-                    <TextBox Text="{Binding descripcionCorta}" AcceptsReturn="True" TextWrapping="Wrap" Width="480" IsReadOnly="True"/>
-                </ScrollViewer>
+                    <Canvas x:Name="canvasTwitter" Width="40" Height="40" Canvas.Left="310" Canvas.Top="25">
+                        <Canvas.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/twitter.png"/>
+                        </Canvas.Background>
+                        <Button x:Name="btnTwitter" Content="Button" Width="40" Height="40" Opacity="0" Click="btnTwitter_Click"></Button>
+                    </Canvas>
+                </Canvas>
 
-                    <Border Width="480" Height="35" Background="#FFC2175B" Margin="10,0,10,0">
-                        <TextBlock Text="Social:" Visibility="Visible"></TextBlock>
-                    </Border>
-
-                    <ScrollViewer Height="55" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="White" Width="480">
-                        <TextBox Text="" AcceptsReturn="True" TextWrapping="Wrap"/>
-                    </ScrollViewer>
-                </ListBox>
-            </StackPanel>
+            </ListBox>
+            <!--</ScrollViewer>-->
 
             <!--<TextBlock Text="{Binding descripcionCorta}" FontSize="20" Height="150" TextWrapping="Wrap"/>
             <TextBlock Text="{Binding descripcionCorta}" FontSize="20" Height="150" TextWrapping="Wrap" Margin="0,10,0,225" Grid.Row="1"/>-->

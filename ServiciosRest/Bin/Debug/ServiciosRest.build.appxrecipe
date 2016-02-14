@@ -49,6 +49,9 @@
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\arte.png">
       <PackagePath>Assets\Logotipos\arte.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\background_splash.png">
+      <PackagePath>Assets\Logotipos\background_splash.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\facebook.png">
       <PackagePath>Assets\Logotipos\facebook.png</PackagePath>
     </AppxPackagedFile>
@@ -63,6 +66,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\interactivo.png">
       <PackagePath>Assets\Logotipos\interactivo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\logolabcode.png">
+      <PackagePath>Assets\Logotipos\logolabcode.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\marker1.png">
       <PackagePath>Assets\Logotipos\marker1.png</PackagePath>

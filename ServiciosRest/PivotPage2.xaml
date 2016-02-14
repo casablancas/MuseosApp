@@ -77,7 +77,7 @@
                                     </Ellipse>
                                     <StackPanel Margin="30">
                                         <TextBlock Text="{Binding nombre}" Margin="20,0,0,0" Foreground="#FFB90065"></TextBlock>
-                                        <TextBlock Text="{Binding categoria}" Margin="20,0,0,0" Foreground="#FFB90065"></TextBlock>
+                                        <TextBlock Text="{Binding categoria}" Margin="20,0,0,0" Foreground="#FFB90065" FontFamily="Portable User Interface"></TextBlock>
                                     </StackPanel>
                                 </StackPanel>
                             </DataTemplate>

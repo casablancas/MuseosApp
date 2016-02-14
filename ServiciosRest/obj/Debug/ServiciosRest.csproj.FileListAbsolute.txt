@@ -169,3 +169,4 @@ C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\Pr
 C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\MDILProjectFiles.xml
 C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\XapCacheFile.xml
 C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\InfoQR.g.cs
+C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\SplashScreen.g.cs

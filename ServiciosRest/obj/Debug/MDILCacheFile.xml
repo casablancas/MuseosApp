@@ -1,15 +1,17 @@
-﻿<xapCache source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\ServiciosRest_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="14/02/2016 03:50:39 a. m.">
-  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="12/02/2016 04:37:25 p. m." />
-  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\ServiciosRest.dll" archivePath="ServiciosRest.dll" lastWriteTime="14/02/2016 03:50:32 a. m." />
+﻿<xapCache source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\ServiciosRest_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="14/02/2016 04:44:13 a. m.">
+  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="14/02/2016 04:16:17 a. m." />
+  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\ServiciosRest.dll" archivePath="ServiciosRest.dll" lastWriteTime="14/02/2016 04:44:05 a. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="13/01/2016 11:22:30 p. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="13/01/2016 11:22:30 p. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="13/01/2016 11:22:30 p. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\arte.png" archivePath="Assets\Logotipos\arte.png" lastWriteTime="21/01/2016 12:06:36 a. m." />
+  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\background_splash.png" archivePath="Assets\Logotipos\background_splash.png" lastWriteTime="14/02/2016 04:04:07 a. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\facebook.png" archivePath="Assets\Logotipos\facebook.png" lastWriteTime="11/02/2016 07:36:18 p. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\feature.camera.png" archivePath="Assets\Logotipos\feature.camera.png" lastWriteTime="23/01/2016 02:10:48 a. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\historia.png" archivePath="Assets\Logotipos\historia.png" lastWriteTime="21/01/2016 12:11:56 a. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\icon.png" archivePath="Assets\Logotipos\icon.png" lastWriteTime="11/02/2016 10:41:52 p. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\interactivo.png" archivePath="Assets\Logotipos\interactivo.png" lastWriteTime="21/01/2016 01:06:54 a. m." />
+  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\logolabcode.png" archivePath="Assets\Logotipos\logolabcode.png" lastWriteTime="14/02/2016 04:09:38 a. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\marker1.png" archivePath="Assets\Logotipos\marker1.png" lastWriteTime="11/02/2016 05:19:53 p. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\Museos Archivos 01-14.png" archivePath="Assets\Logotipos\Museos Archivos 01-14.png" lastWriteTime="26/01/2016 10:21:11 a. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\phone.png" archivePath="Assets\Logotipos\phone.png" lastWriteTime="11/02/2016 10:42:29 a. m." />
@@ -34,7 +36,7 @@
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\packages\Newtonsoft.Json.8.0.2\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="13/01/2016 11:39:28 p. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\packages\Silverlight_ZXing_Core.dll" archivePath="Silverlight_ZXing_Core.dll" lastWriteTime="21/07/2011 06:59:18 p. m." />
   <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\packages\Newtonsoft.Json.8.0.2\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="13/01/2016 11:39:28 p. m." />
-  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="11/02/2016 06:08:00 p. m." />
-  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="14/02/2016 03:50:37 a. m." />
-  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="12/02/2016 04:37:26 p. m." />
+  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="14/02/2016 04:38:01 a. m." />
+  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="14/02/2016 04:44:11 a. m." />
+  <file source="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="14/02/2016 04:16:17 a. m." />
 </xapCache>

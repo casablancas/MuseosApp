@@ -123,6 +123,9 @@
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
     <Compile Include="Museo.cs" />
+    <Compile Include="SplashScreen.xaml.cs">
+      <DependentUpon>SplashScreen.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -153,6 +156,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SplashScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -174,11 +181,13 @@
     <Content Include="Assets\BadgeLogo.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Logotipos\arte.png" />
+    <Content Include="Assets\Logotipos\background_splash.png" />
     <Content Include="Assets\Logotipos\facebook.png" />
     <Content Include="Assets\Logotipos\feature.camera.png" />
     <Content Include="Assets\Logotipos\historia.png" />
     <Content Include="Assets\Logotipos\icon.png" />
     <Content Include="Assets\Logotipos\interactivo.png" />
+    <Content Include="Assets\Logotipos\logolabcode.png" />
     <Content Include="Assets\Logotipos\marker1.png" />
     <Content Include="Assets\Logotipos\Museos Archivos 01-14.png" />
     <Content Include="Assets\Logotipos\phone.png" />

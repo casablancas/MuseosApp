@@ -189,6 +189,10 @@ namespace ServiciosRest
             {
                 e.Cancel = true;
             }
+            if (mbr == MessageBoxResult.OK)
+            {
+                Application.Current.Terminate();
+            }
         }
 
         private void Elementos_SelectionChanged(object sender, SelectionChangedEventArgs e)

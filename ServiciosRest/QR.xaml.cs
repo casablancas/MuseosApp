@@ -3,10 +3,14 @@ using System.Windows.Threading;
 using System.Windows.Navigation;
 using System.Collections.ObjectModel;
 
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+
 using Microsoft.Devices;
 using com.google.zxing;
 using com.google.zxing.common;
 using com.google.zxing.qrcode;
+using System.IO;
 
 namespace ScannerDemo
 {
@@ -66,7 +70,7 @@ namespace ScannerDemo
         {
             try
             {
-                lblQR.Text = "No se detecta código QR";
+                lblQR.Text = "No se detecta ningún código QR";
                 _photoCamera.GetPreviewBufferY(_luminance.PreviewBufferY);
                 var binarizer = new HybridBinarizer(_luminance);
                 var binBitmap = new BinaryBitmap(binarizer);
@@ -74,6 +78,14 @@ namespace ScannerDemo
 
                 var scan = result.Text;
                 lblQR.Text = "Escanea un código de Museos App";
+                //System.Media.SystemSounds.Beep.Play();
+                //System.Media.SystemSounds.Asterisk.Play();
+                //SystemSounds.Beep.Play();
+                /*Stream stream = TitleContainer.OpenStream("/Assets/cartel.mp3");
+                SoundEffect effect = SoundEffect.FromStream(stream);
+                FrameworkDispatcher.Update();
+                effect.Play();*/
+                //mediaElement.Play();
 
                 var textId = scan.Remove(0, 42);
                 System.Diagnostics.Debug.WriteLine("ID DEL TEXTO: " + textId);

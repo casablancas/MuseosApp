@@ -31,6 +31,11 @@
             <TextBlock x:Name="lblQR" Text="No se detecta código QR" FontSize="30" Canvas.Top="30" TextAlignment="Center" Width="480"/>
         </Canvas>
 
+        <Canvas Margin="0,590,0,100" Background="Black" Opacity="0.3"/>
+        <Canvas Width="480" Background="Black" Margin="0,60,0,590" Opacity="0.3"/>
+        <Canvas Background="Black" Opacity="0.3" Margin="0,210,426,210"/>
+        <Canvas Width="50" Background="Black" Opacity="0.3" Margin="430,210,0,210"/>
+
         <Canvas Width="480" Height="60" Margin="0,0,0,740" Background="#FF890E4F" Opacity="0.5">
             <Image Width="60" Height="60" Source="/Assets/Logotipos/icon.png" Canvas.Left="20"></Image>
             <TextBlock x:Name="lblTitulo" Text="Museos App" Canvas.Top="10" FontSize="30" TextAlignment="Center" Width="480"/>

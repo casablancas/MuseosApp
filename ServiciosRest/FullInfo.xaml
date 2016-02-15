@@ -45,6 +45,9 @@
 
             <!--<ScrollViewer>-->
             <ListBox Grid.Row="1" x:Name="contenido" Background="White" ScrollViewer.VerticalScrollBarVisibility="Visible">
+                <!--<ScrollBar Background="Green" HorizontalAlignment="Right" VerticalAlignment="Top" Height="Auto" Width="5"></ScrollBar>-->
+                <!--<ScrollBar Background="Green" Height="Auto" Width="5" HorizontalAlignment="Right" Orientation="Vertical"></ScrollBar>-->
+                <!--<ScrollBar x:Name="VerticalScrollBar" Background="Blue" HorizontalAlignment="Right" Height="Auto" IsHitTestVisible="False" IsTabStop="False" Minimum="0" Opacity="0" Orientation="Vertical" VerticalAlignment="Stretch" Width="5"/>-->
 
                 <Canvas Grid.Row="0" Margin="0,0,0,0" Width="480" Height="345">
                     <!--<TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>-->

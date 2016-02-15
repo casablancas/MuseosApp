@@ -125,8 +125,14 @@
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\icon_white.png">
+      <PackagePath>icon_white.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\logolabcode.png">
       <PackagePath>logolabcode.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\cartel.mp3">
+      <PackagePath>Assets\cartel.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

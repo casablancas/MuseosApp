@@ -179,6 +179,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\BadgeLogo.png" />
+    <Content Include="Assets\cartel.mp3" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Logotipos\arte.png" />
     <Content Include="Assets\Logotipos\background_splash.png" />
@@ -215,6 +216,7 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="icon_white.png" />
     <Content Include="logolabcode.png" />
   </ItemGroup>
   <ItemGroup>

@@ -67,6 +67,9 @@
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\interactivo.png">
       <PackagePath>Assets\Logotipos\interactivo.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\interface.png">
+      <PackagePath>Assets\Logotipos\interface.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\logolabcode.png">
       <PackagePath>Assets\Logotipos\logolabcode.png</PackagePath>
     </AppxPackagedFile>
@@ -78,6 +81,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\phone.png">
       <PackagePath>Assets\Logotipos\phone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\qrcode.png">
+      <PackagePath>Assets\Logotipos\qrcode.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\refresh.png">
+      <PackagePath>Assets\Logotipos\refresh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\technology.png">
+      <PackagePath>Assets\Logotipos\technology.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alex_\Documents\Visual Studio 2015\MuseosApp\ServiciosRest\Assets\Logotipos\twitter.png">
       <PackagePath>Assets\Logotipos\twitter.png</PackagePath>

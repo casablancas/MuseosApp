@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="False">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="#FF890E4F">
+    <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -27,7 +27,7 @@
                 </Canvas.Background>
             </Canvas>
 
-            <Canvas Width="290" Height="200" Canvas.Left="101" Canvas.Top="522" Opacity="0.8">
+            <Canvas Width="290" Height="200" Canvas.Left="93" Canvas.Top="550" Opacity="0.8">
                 <Canvas.Background>
                     <ImageBrush Stretch="UniformToFill" ImageSource="/logolabcode.png"/>
                 </Canvas.Background>

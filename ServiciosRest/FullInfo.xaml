@@ -94,7 +94,7 @@
                     <TextBlock Text="{Binding descripcionCorta}" FontSize="25" TextWrapping="Wrap" Width="443" Foreground="#FF890E4F" Canvas.Left="20" Canvas.Top="20"/>
                     <Canvas Width="40" Height="40" Canvas.Left="430" Canvas.Top="270">
                         <Canvas.Background>
-                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/voice.png"/>
+                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Logotipos/technology.png"/>
                         </Canvas.Background>
                         <Button x:Name="btnAudio" Content="Button" Width="40" Height="40" Opacity="0" Click="btnAudio_Click"></Button>
                     </Canvas>

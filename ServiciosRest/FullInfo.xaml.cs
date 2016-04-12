@@ -18,6 +18,9 @@ namespace ServiciosRest
 {
     public partial class FullInfo : PhoneApplicationPage
     {
+        private int audioCount = 0;
+        private SpeechSynthesizer synth = new SpeechSynthesizer();
+
         public FullInfo()
         {
             InitializeComponent();
@@ -158,10 +161,21 @@ namespace ServiciosRest
             this.DataContext = museo;
             var descripcion = museo.descripcionCorta;
 
-            SpeechSynthesizer synth = new SpeechSynthesizer();
-
-            await synth.SpeakTextAsync(descripcion);
+            while (audioCount == 0)
+            {
+                audioCount = 1;
+                await synth.SpeakTextAsync(descripcion);
+                //if (audioCount == 1) { synth.CancelAll();break; }
+            }
+            audioCount = 0;
+            //synth.CancelAll();
         }
+
+        /*protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            synth.CancelAll();
+            NavigationService.Navigate(new Uri("/PivotPage2.xaml", UriKind.Relative));
+        }*/
 
         private async void btnWeb_Click(object sender, RoutedEventArgs e)
         {

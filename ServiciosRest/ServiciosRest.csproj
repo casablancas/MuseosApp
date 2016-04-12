@@ -97,6 +97,9 @@
     <Compile Include="FullInfo.xaml.cs">
       <DependentUpon>FullInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HelpPage.xaml.cs">
+      <DependentUpon>HelpPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InfoQR.xaml.cs">
       <DependentUpon>InfoQR.xaml</DependentUpon>
     </Compile>
@@ -133,6 +136,10 @@
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
     <Page Include="FullInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HelpPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -188,10 +195,14 @@
     <Content Include="Assets\Logotipos\historia.png" />
     <Content Include="Assets\Logotipos\icon.png" />
     <Content Include="Assets\Logotipos\interactivo.png" />
+    <Content Include="Assets\Logotipos\interface.png" />
     <Content Include="Assets\Logotipos\logolabcode.png" />
     <Content Include="Assets\Logotipos\marker1.png" />
     <Content Include="Assets\Logotipos\Museos Archivos 01-14.png" />
     <Content Include="Assets\Logotipos\phone.png" />
+    <Content Include="Assets\Logotipos\qrcode.png" />
+    <Content Include="Assets\Logotipos\refresh.png" />
+    <Content Include="Assets\Logotipos\technology.png" />
     <Content Include="Assets\Logotipos\twitter.png" />
     <Content Include="Assets\Logotipos\voice.png" />
     <Content Include="Assets\Logotipos\www.png" />

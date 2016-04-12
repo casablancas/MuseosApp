@@ -64,24 +64,55 @@ namespace ServiciosRest
         {
             ApplicationBar = new ApplicationBar();
 
-            ApplicationBar.Mode = ApplicationBarMode.Minimized;
-            ApplicationBar.Opacity = 0.8;
+            ApplicationBar.Mode = ApplicationBarMode.Default;
+            //ApplicationBar.Mode = ApplicationBarMode.Minimized;
+            ApplicationBar.Opacity = 0.9;
             ApplicationBar.IsVisible = true;
             ApplicationBar.IsMenuEnabled = true;
-            ApplicationBar.BackgroundColor = Color.FromArgb(255, 8, 165, 196);
+            //ApplicationBar.BackgroundColor = Color.FromArgb(255, 8, 165, 196);
+            ApplicationBar.BackgroundColor = Color.FromArgb(255, 0, 188, 212);
             //ApplicationBar.BackgroundColor = Colors.Blue;
             //ApplicationBar.BackgroundColor = SolidColorBrush(Colors.Blue);
 
+            //Botón QR
             ApplicationBarIconButton buttonQR = new ApplicationBarIconButton();
             buttonQR.IconUri = new Uri("/Assets/Logotipos/Museos Archivos 01-14.png", UriKind.Relative);
             buttonQR.Text = "QR";
             buttonQR.Click += ButtonQR_Click;
 
+            //Botón Ayuda
+            ApplicationBarIconButton buttonHelp = new ApplicationBarIconButton();
+            buttonHelp.IconUri = new Uri("/Assets/Logotipos/interface.png", UriKind.Relative);
+            buttonHelp.Text = "Ayuda";
+            buttonHelp.Click += ButtonHelp_Click;
+
+            //Botón Refresh
+            ApplicationBarIconButton buttonRefresh = new ApplicationBarIconButton();
+            buttonRefresh.IconUri = new Uri("/Assets/Logotipos/refresh.png", UriKind.Relative);
+            buttonRefresh.Text = "Refrescar";
+            buttonRefresh.Click += ButtonRefresh_Click;
+
+            ApplicationBar.Buttons.Add(buttonHelp);
             ApplicationBar.Buttons.Add(buttonQR);
+            ApplicationBar.Buttons.Add(buttonRefresh);
 
             /*ApplicationBarMenuItem menuItem1 = new ApplicationBarMenuItem();
             menuItem1.Text = "menu item 1";
             ApplicationBar.MenuItems.Add(menuItem1);*/
+        }
+
+        private void ButtonRefresh_Click(object sender, EventArgs e)
+        {
+            //throw new NotImplementedException();
+            museosArte();
+            museosHistoria();
+            museosInteractivos();
+        }
+
+        private void ButtonHelp_Click(object sender, EventArgs e)
+        {
+            //throw new NotImplementedException();
+            NavigationService.Navigate(new Uri("/HelpPage.xaml", UriKind.Relative));
         }
 
         private void ButtonQR_Click(object sender, EventArgs e)
